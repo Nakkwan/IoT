@@ -1,0 +1,8 @@
+- GPIO(General Purpose I/O)
+범용 입출력으로, MCU가 주변 장치와 통신하기 위해, 범용으로 사용되는 I/O port다.
+GPIO는 사용자가 pin에 대해, 입력이냐, 출력이냐의 여부를 선택할 수 있다.
+
+Arduino의 GPIO는 입출력 port를 제어하기 위해, DDRx, PORTx, PINx, 3개의 레지스터를 갖고 있다.
+DDRx는 입력 출력 설정을 위한 register이고, PORTx는 DDRx가 출력일시, HIGH와 LOW 여부를 위한 register다.
+PINx는 DDRx가 입력일 시, 신호를 읽는 register다. 
+
